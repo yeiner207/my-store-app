@@ -12,7 +12,8 @@ export const App = () => {
       }
 
     };
-  })
+    testApi()
+  }, [])
   return (
     <div className="flex justify-center items-center h.screen bg-gray-500">
       {data && <code>{JSON.stringify(data.message)}</code>}
