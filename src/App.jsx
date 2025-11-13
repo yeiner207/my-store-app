@@ -10,6 +10,7 @@ export const App = () => {
       } catch (error) {
         console.error(error);
       }
+
     };
   })
   return (
